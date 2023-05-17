@@ -1,0 +1,18 @@
+{
+  "name": "js-core",
+  "version": "1.0.0",
+  "description": "Tests for Javascript skills",
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-cli": "^29.5.0"
+  }
+}
