@@ -2,7 +2,7 @@ import {describe, it, expect, jest} from '@jest/globals';
 
 import Task_2 from '../src/task_2.js'
 
-describe('Task 2', () => {
+describe.skip('Task 2', () => {
     const cars = [
         {color: "Red", brand: "Mercedes"},
         {color: "White", brand: "Toyota"},

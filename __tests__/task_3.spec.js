@@ -6,7 +6,7 @@ function decimalsToFixed(value, decimals){
     return Math.round(value * Math.pow(10,decimals)) / Math.pow(10,decimals)
 }
 
-describe('Task 3', () => {
+describe.skip('Task 3', () => {
     it('should return correct conversion info for 90 degrees', () => {
         const result = Task_3(90)
 

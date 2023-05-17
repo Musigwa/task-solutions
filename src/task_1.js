@@ -24,6 +24,6 @@ Array.prototype.duplicate = function () {
     return [...this, ...this];
 };
 
-export default function main(input) {
+export default function main(input=[1,2,3,4,5]) {
     return input.duplicate();
 }
