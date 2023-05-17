@@ -7,7 +7,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles --coverage"
   },
   "author": "",
   "license": "ISC",

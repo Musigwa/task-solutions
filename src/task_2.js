@@ -22,4 +22,15 @@ export function logCar() {
  */
 export default function main(input) {
   // Implement your logic
+  if (Array.isArray(input)) {
+    // If the input is an array of cars
+    input.forEach((car) => {
+      const logCarBound = logCar.bind(car);
+      logCarBound();
+    });
+  } else {
+    // If the input is a single car object
+    const logCarBound = logCar.bind(input);
+    logCarBound();
+  }
 }
