@@ -41,7 +41,7 @@ To get started with the task solutions, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone [repository_url](https://github.com/Musigwa/task-solutions.git)
+   git clone https://github.com/Musigwa/task-solutions.git
    ```
 
 2. Change to the project directory:
@@ -89,7 +89,7 @@ The main function should use the bind method to call logCar and print the detail
 This task involves fixing an error in the implementation of a conversion between degrees and radians.
 
 The object Converter contains methods for converting degrees to radians (deg2rad) and radians to degrees (rad2deg).
-There is a bug in the rad2deg method that needs to be fixed.
+There was a bug in the rad2deg method that we fixed and the bug report can be found in the target task's file `src/task_3.js`.
 The main function takes a number as input and returns the result of adding a specific radian value to the degrees input.
 
 ## Task_4: Dictionary Indexing
