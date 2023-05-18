@@ -130,12 +130,12 @@ Feel free to explore and modify the existing code and test files to suit your ne
 
 ## About the author
 
-Name: MUSIGWA Pacifique
 
 You can contact me by: 
-1. Email: pacifique.musigwa@gmail.com
-2. Twitter: https://twitter.com/MusigwaP
-3. LinkedIn: https://linkedin.com/in/musigwa-pacifique
+1. Name: MUSIGWA Pacifique
+2. Email: pacifique.musigwa@gmail.com
+3. [Twitter](https://twitter.com/MusigwaP)
+4. [LinkedIn](https://linkedin.com/in/musigwa-pacifique)
 
 ## License
 
