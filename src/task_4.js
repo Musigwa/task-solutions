@@ -21,6 +21,10 @@
  * @return {Record<string: object>}
  */
 export default function main(input) {
-  return input
+  return input.reduce((dictionary, element) => {
+    const { targetDate, ...rest } = element;
+    dictionary[targetDate] = rest;
+    return dictionary;
+  }, {});
 }
 
