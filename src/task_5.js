@@ -60,7 +60,21 @@
  * @return {Array<number>}
  */
 export default function main(input) {
-  let result = []
+  let result = [];
+  let sortedArr = [];
 
-  return result
+  for (let i = 0; i < input.length; i++) {
+    sortedArr.push(input[i]);
+    sortedArr.sort((a, b) => a - b);
+
+    const length = sortedArr.length;
+    const median =
+      length % 2 === 0
+        ? (sortedArr[length / 2 - 1] + sortedArr[length / 2]) / 2
+        : sortedArr[Math.floor(length / 2)];
+
+    result.push(median);
+  }
+
+  return result;
 }

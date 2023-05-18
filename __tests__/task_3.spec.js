@@ -25,10 +25,13 @@ describe('main', () => {
     expect(addedRadian).toEqual(0.7854);
   });
 
-  it.skip('should convert degrees to radians and add 10 degrees in radians for negative input', () => {
-    const input = -30; // -30 degrees
-    const expected = { newAngle: -19.202572368477403, baseRadian: -0.5235987755982988 };
-    expect(main(input)).toEqual(expected);
+  it('should convert degrees to radians and add 10 degrees in radians for negative input', () => {
+    const result = main(-30);
+
+    const newAngle = decimalsToFixed(result.newAngle, 2);
+    const addedRadian = decimalsToFixed(result.baseRadian, 4);
+    expect(newAngle).toEqual(-20);
+    expect(addedRadian).toEqual(-0.5236);
   });
 
   it('should convert degrees to radians and add 10 degrees in radians for 0 degrees input', () => {
